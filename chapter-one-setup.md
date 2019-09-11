@@ -2,7 +2,7 @@
 
 ## Build Tool
 
-We use [Stack](https://docs.haskellstack.org/en/stable/README/) as our build tool, and [HPack](https://github.com/sol/hpack) for package configuration. Dependencies, test modules, executables to build, compiler flags, and the like are found in `packag.yaml`.
+We use [Stack](https://docs.haskellstack.org/en/stable/README/) as our build tool, and [HPack](https://github.com/sol/hpack) for package configuration. Dependencies, test modules, executables to build, compiler flags, and the like are found in `package.yaml`.
 
 ## Intero
 
@@ -24,7 +24,7 @@ A project is broken into a reusable library, executables, tests, and benchmarks.
 
 ### Library
 
-You will often see library code in a `/src` directory. We're following the other convention, which is to place library code in a directory shocking titled... `library`.
+You will often see library code in a `/src` directory. We're following the other convention, which is to place library code in a directory shockingly titled... `library`.
 
 ### Quality
 
